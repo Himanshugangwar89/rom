@@ -30,7 +30,7 @@ jobs:
           sudo apt install wget
           mkdir acer
             cd acer
-          wget https://www.mediafire.com/file/rtwetcdco4gurvj/Acer_One_8_T4_82L_Flash_file_By_flashfile.in.rar
+          wget https://www.mediafire.com/file/rtwetcdco4gurvj/Acer_One_8_T4_82L_Flash_file_By_flashfile.in.rar/file
    
              
        - name: Release Rom
