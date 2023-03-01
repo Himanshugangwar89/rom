@@ -27,10 +27,10 @@ jobs:
 
        - name: Initializing environment
          run: |
-          sudo pip install gdown
+          sudo apt install curl
           mkdir acer
             cd acer
-          sudo gdown https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download
+          curl https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download
    
              
        - name: Release Rom
@@ -41,4 +41,4 @@ jobs:
           tag_name: Rom
           name: Rom
           files: | 
-            home/acer/AcerOne_8_T482L(2).zip
+            acer/AcerOne_8_T482L(2).zip
