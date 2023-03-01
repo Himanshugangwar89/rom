@@ -41,4 +41,4 @@ jobs:
           tag_name: Rom
           name: Rom
           files: | 
-            acer/home/acer/AcerOne_8_T482L(2).zip
+            acer/AcerOne_8_T482L(2).zip
