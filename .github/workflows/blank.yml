@@ -30,7 +30,7 @@ jobs:
           sudo pip install gdown
           mkdir acer
             cd acer
-          gdown https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download
+          sudo gdown https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download
    
              
        - name: Release Rom
@@ -41,4 +41,4 @@ jobs:
           tag_name: Rom
           name: Rom
           files: | 
-            home/runner/work/rom/rom/acer/AcerOne_8_T482L(2).zip
+            home/acer/AcerOne_8_T482L(2).zip
