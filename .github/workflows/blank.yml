@@ -30,7 +30,7 @@ jobs:
           sudo apt install curl
           mkdir acer
             cd acer
-          curl https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&amp;confirm=t&amp;uuid=100dc5c9-debd-496c-9bc1-22f917187fc7
+          curl -L "https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download" >acer.zip
    
              
        - name: Release Rom
@@ -41,4 +41,4 @@ jobs:
           tag_name: Rom
           name: Rom
           files: | 
-            acer/AcerOne_8_T482L(2).zip
+            acer/acer.zip
