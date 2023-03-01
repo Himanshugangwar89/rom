@@ -30,7 +30,7 @@ jobs:
           sudo apt install curl
           mkdir acer
             cd acer
-          sudo curl -L "https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download" > acer.zip
+          sudo curl -L https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download
    
              
        - name: Release Rom
