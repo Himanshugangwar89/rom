@@ -27,10 +27,10 @@ jobs:
 
        - name: Initializing environment
          run: |
-          sudo apt install wget
+          sudo pip install gdown
           mkdir acer
             cd acer
-          wget https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download
+          gdown https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download
    
              
        - name: Release Rom
