@@ -27,10 +27,10 @@ jobs:
 
        - name: Initializing environment
          run: |
-          sudo apt install curl
+          sudo apt install wget
           mkdir acer
             cd acer
-          sudo curl -L https://drive.google.com/uc?id=18sO3p23Tnaso7Ij9YLC40en1ROOv9GWs&export=download
+          sudo wget https://download1499.mediafire.com/462sxj3a484gxdLws6o5uJASP6zfn6uyu8dPuxJbIeYtS9h8QbwPNEvvpKvH-ttuqHu7XIqoksPtF4l1nXisH2XLFDP85w/f9w5b6oys9yctuf/X671-H331AB-S-GL-220527V1013%28MobiFirmware.com%29.zip
    
              
        - name: Release Rom
