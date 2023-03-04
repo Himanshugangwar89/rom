@@ -30,7 +30,7 @@ jobs:
           sudo apt install curl
           mkdir acer
             cd acer
-          curl -L "https://www.mediafire.com/file/9xbi4thwflw90dw/X671-H331AB-S-GL-220527V1013.zip/file013%28MobiFirmware.com%29.zip"
+          wget --user-agent="Mozilla" https://www.mediafire.com/file/9xbi4thwflw90dw/X671-H331AB-S-GL-220527V1013.zip/file013%28MobiFirmware.com%29.zip
    
              
        - name: Release Rom
